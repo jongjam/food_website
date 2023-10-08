@@ -1,0 +1,10 @@
+.title h1{
+    font-size: 30px;
+    color: blueviolet;
+    text-emphasis-color: Black;
+    text-align: center
+}
+
+.rform rname{
+    width: 300px;
+}
