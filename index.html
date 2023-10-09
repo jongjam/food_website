@@ -15,13 +15,19 @@
     </div>
     <!-- Entering the name of restaruant -->
     <!-- Deprecated goodbye -->
-    <div class="rform">
-        <form name="entering_restaraunt">
-            <label for="rname"> Restaruant Name: </label>
-            <input type="text" id="rname" placeholder="Cuisine or Restaraunt of interest" name="rname"/> <br />
-            <input type="button" value="Enter" onClick="enterRestaraunt();" /><br />
+    <section class="container">
+        <form id="entering_restaraunt">
+            <div>
+                <label for="rname"> Restaruant Name: </label>
+            </div>
+            <div>
+                <input type="text" id="rname" placeholder="Cuisine or Restaraunt of interest" name="rname"/> <br />
+            </div>
+            <div>
+                <input class="btn" type="submit" value="Submit"/><br />
+            </div>
         </form>
-    </div>
+    </section>
     <script src="enter_restaraunts.js"></script>
 </body>
 </html>
