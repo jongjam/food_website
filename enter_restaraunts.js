@@ -6,11 +6,13 @@ const myForm = document.querySelector('#entering_restaraunt');
 const restName = document.querySelector('#rname');
 
 myForm.addEventListener('submit', onSubmit);
-
+myForm.addEventListener('submit', buttonColorChangeSubmit);
 function onSubmit(e) { //This will need to be replaced with selecting Google Search options
     e.preventDefault();
     console.log(restName.value);
 }
 
-
+function buttonColorChangeSubmit(e) {
+    document.querySelector('')
+}
 

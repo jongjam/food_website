@@ -1,3 +1,8 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+  }  
+
 .title h1{
     font-size: 30px;
     color: blueviolet;
@@ -5,8 +10,30 @@
     text-align: center
 }
 
-.rform rname{
-    width: 300px;
+.container {
+    margin: auto;
+    width: 500px;
+    overflow: auto;
+    padding: 3rem 2rem;
+    
+  }
+
+#entering_restaraunt {
+    padding: 2rem;
+    width: 100%;
+    background-color: #f4f4f4;
+}
+
+#entering_restaraunt label {
+    margin-left: 5px;
+}
+
+#entering_restaraunt input[type='text'] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
 }
 
 .btn {
@@ -19,3 +46,8 @@
     border-radius: 5px;
     margin: 5px 0;
   }
+
+  .btn:hover {
+    background: #444;
+  }
+  
