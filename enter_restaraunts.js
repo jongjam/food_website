@@ -1,4 +1,11 @@
+// The goal is to make a very premium/fine dining looking website
+// Dim lit images of fine dining foods that rotate in a bar that covers the page near the top
+// Scroll down and you have the fill in page
+
+
+
 console.log("PLEASE HELP US!");
+
 //USE SVELT FRONTEND
 //DJANGO (PYTHON) BACKEND LET"S GO! 
 
