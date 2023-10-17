@@ -6,7 +6,7 @@ images[1] = 'images/pizza.jpg';
 images[2] = 'images/porkparty.jpg';
 images[3] = 'images/sundaegook.jpg';
 
-const banner_img = document.querySelector('banner');
+const banner_img = document.getElementById('banner');
 console.log(banner_img)
 
 // Use an image tag and then change its source
