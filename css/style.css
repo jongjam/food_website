@@ -1,7 +1,22 @@
 * {
-    padding: 0;
-    box-sizing: border-box;
-  }  
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* by default there is a little bit of margin and padding on the edges of a website and by using star it applies this base property to al the containers i guess */
+
+.navbar {
+    width: 100%;
+    height: auto;
+    background-color: #3a3327;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%),
+    0 0 2px rgb(0 0 0 / 7%);
+  }
+
+.navbar-container {
+  display: flex;
+}
 
 .title h1{
     font-size: 30px;
@@ -56,4 +71,6 @@
   .btn:hover {
     background: #444;
   }
+
+
   
