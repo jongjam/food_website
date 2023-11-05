@@ -1,9 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;600;700&display=swap');
+
+--root {
+  --color-primary: fff;
+  --color-extra: #2c8668;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 /* by default there is a little bit of margin and padding on the edges of a website and by using star it applies this base property to al the containers i guess */
+
+html, body {
+  font-family: 'Roboto Condensed', sans-serif;
+  line-height: 1.4;
+  color: #fff;
+}
 
 .navbar {
     width: 100%;
@@ -15,35 +28,30 @@
   }
 
 .navbar-container {
-  display: flex;
+  /* We want this navbar container as a flex box not in flex with other things */
+  text-align: center;
+  justify-content: flex-start;
+  
 }
 
 .navbar ul {
   list-style: none;
-  display: flex;
-  align-items: left;
+ 
+  display: inline-flex;
 }
 
 .navbar li {
   margin : 0 15px;
   font-weight: bold;
 }
-.navbar-nav button {
-  display: inline-block;
-  background: none;
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 50px;
-  padding: 7px 16px;
-  font-weight: 600;
 
-  font-family: AlternateGotNo2D,Pretendard;
-  line-height: 1.2;
-  text-align: center;
-  -webkit-text-decoration: none;
+.navbar-nav a {
+  color: #fff;
   text-decoration: none;
-  transition: all .2s ease;
-  transition: var(--buttonTransition);
+}
+
+.navbar-nav a:hover {
+  color: #918d8d;
 }
 
 /* .btn-inverted {
@@ -91,6 +99,10 @@
 
 #entering_restaraunt label {
     margin-left: 5px;
+}
+
+#entering_restaraunt h2 {
+  color: #000;
 }
 
 #entering_restaraunt input[type='text'] {
