@@ -7,8 +7,8 @@
 
 * {
   box-sizing: border-box;
-  /* margin: 0;
-  padding: 0; */
+  margin: 0;
+  padding: 0;
 }
 /* by default there is a little bit of margin and padding on the edges of a website and by using star it applies this base property to al the containers i guess */
 
@@ -125,9 +125,9 @@ html, body {
 }
 
 #entering_restaraunt {
-  position: center;
-    padding: 2rem;
-    margin: 0px auto;
+    position: center;
+    padding: 3rem 2rem;
+    margin: 10% auto;
     width: 500px;
     background-color: #f4f4f4;
 }
