@@ -6,7 +6,7 @@ images[0] = 'images/pizza.jpg';
 // images[1] = 'images/porkparty.jpg';
 // images[2] = 'images/sundaegook.jpg';
 
-const banner_img = document.getElementById('banner');
+const banner_img = document.getElementById('er_container');
 console.log(banner_img)
 
 // Need to change format into a kind of...... landing page
@@ -17,7 +17,7 @@ console.log(banner_img)
 //<img name="slide" width="400" height="200" />
 
 function changeImg(){
-	banner_img.src = images[i];
+	banner_img.style.backgroundImage = `url(${images[i]})`;
 
 	// Check If Index Is Under Max
 	if(i < images.length - 1){

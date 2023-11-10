@@ -1,59 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width",
-    initial-scale="1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>FOOD NIGHTMARE BEGINS</title>
-</head>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width",
+        initial-scale="1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>FOOD NIGHTMARE BEGINS</title>
+    </head>
 
-<body> 
-    <!-- Rather than using a single img and changing the source... cycle through divs and change the background-->
-    <nav class = "navbar">
-        <div class="navbar-container"> <!-- The content of the navbar needs to be contained into a certain width, we can ctroll this with css-->
-            <ul class="navbar-nav">
-                <li>
-                    <a href="#entering_restaraunt">CUISINE</a>
-                </li>
-                <li>
-                    <a href="#">CONTACT</a>
-                </li>
-         </ul>
+    <body> 
+        <!-- Rather than using a single img and changing the source... cycle through divs and change the background-->
+        <nav class = "navbar">
+            <div class="navbar-container"> <!-- The content of the navbar needs to be contained into a certain width, we can ctroll this with css-->
+                <ul class="navbar-nav">
+                    <li>
+                        <a href="#entering_restaraunt">CUISINE</a>
+                    </li>
+                    <li>
+                        <a href="#">CONTACT</a>
+                    </li>
+            </ul>
+            </div>
+        </nav>
+        <!-- Entering the name of restaruant -->
+        <div class="container" id="er_container">
+            <!-- TODO -->
+            <!-- Follow the login and password style to enter enter_restaraunts
+            Have grubtown instead of being the website heading put it inside box
+            -->
+            <!-- <img id="banner">   -->
+            <form id="entering_restaraunt">
+                <div class="title">
+                    <h1> Welcome to Grub Town </h1>
+                </div>
+                <div>
+                    <h2 for="rname"> Name of Cuisine Sir or Madame </h2>
+                </div>
+                <div>
+                    <input id="rname" type="text" placeholder="Cuisine or Restaraunt of interest" name="rname"/> <br />
+                </div>
+                <div>
+                    <!-- blackout the btn when clicked -->
+                    <input class="food-btn" type="submit" value="Submit"/><br />
+                </div>
+            </form>
         </div>
-    </nav>
-   
-   
-    
-    <!-- Entering the name of restaruant -->
-    <section class="container">
-        <!-- TODO -->
-        <!-- Follow the login and password style to enter enter_restaraunts
-        Have grubtown instead of being the website heading put it inside box
-         -->
-        <img id="banner">  
-        <form id="entering_restaraunt">
-            <div class="title">
-                <h1> Welcome to Grub Town </h1>
-            </div>
-            <div>
-                <h2 for="rname"> Name of Cuisine Sir or Madame </h2>
-            </div>
-            <div>
-                <input id="rname" type="text" placeholder="Cuisine or Restaraunt of interest" name="rname"/> <br />
-            </div>
-            <div>
-                <!-- blackout the btn when clicked -->
-                <input class="food-btn" type="submit" value="Submit"/><br />
-            </div>
-        </form>
-    </section>
-    <script src="enter_restaraunts.js"></script>
-    <script src="image_slides.js"></script>
-    <footer class="footer"> 
-        
-    </footer>
-</body>
+        <script src="image_slides.js"></script>
+        <script src="enter_restaraunts.js"></script>
+    </body>
 </html>
+
 
