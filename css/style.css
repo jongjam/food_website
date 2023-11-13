@@ -161,9 +161,19 @@ html, body {
     margin: 5px 0;
   }
 
-  .food-btn:hover {
-    background: #444;
-  }
+.food-btn:hover {
+  background: #444;
+}
 
-
-  
+.footer {
+  width: 100%;
+    text-align: left;
+    line-height: 1.5;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    float: left;
+    z-index: 2;
+    padding: 2em 0;
+  background-color: #3a3327;
+}
