@@ -2,7 +2,7 @@ var i = 0;
 var time = 3000;
 var images = [];
 // images[0] = 'images/icecube.jpg';
-images[0] = 'images/pizza.jpg';
+images[0] = 'images/pizza_pizza.jpg';
 // images[1] = 'images/porkparty.jpg';
 // images[2] = 'images/sundaegook.jpg';
 
