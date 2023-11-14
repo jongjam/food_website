@@ -19,12 +19,12 @@ html, body {
 }
 
 .navbar {
-    width: 100%;
-    height: auto;
-    background-color: #3a3327;
-    padding: 20px;
-    /* box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%),
-    0 0 2px rgb(0 0 0 / 7%); */
+  width: 100%;
+  height: auto;
+  background-color: #3a3327;
+  padding: 20px;
+  /* box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%),
+  0 0 2px rgb(0 0 0 / 7%); */
   }
 
 .navbar-container {
@@ -36,7 +36,6 @@ html, body {
 
 .navbar ul {
   list-style: none;
- 
   display: inline-flex;
 }
 
@@ -167,13 +166,51 @@ html, body {
 
 .footer {
   width: 100%;
-    text-align: left;
-    line-height: 1.5;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    float: left;
-    z-index: 2;
-    padding: 2em 0;
+  height: auto;
   background-color: #3a3327;
+  padding: 20px;
+  
+} 
+
+.bottom-menu-wrapper {
+  padding-left: 15px;
+  border-top: 1px solid #444;
+  border-bottom: 1px solid #444;
+}
+
+.bottom-menu-item {
+  display: inline-flex;
+  padding: 18px 0; /* top and bottom paddings are 18px
+  right and left paddings are 0px */
+  justify-content: flex-start;
+  column-gap: 15px;
+}
+
+.bottom-menu-item a{
+  color: #fff;
+}
+
+.footer-description {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #444;
+  padding: 18px 0;
+  padding-left: 15px;
+  font-size: 0
+}
+
+.footer-title {
+  color: #fff;
+  font-size: 13px;
+}
+
+.footer-info {
+  display: inline-flex;
+  font-size: 12px;
+  color: #bbb;
+}
+
+.footer-info span {
+  margin-right: 6px;
+  color: #bbb;
 }
